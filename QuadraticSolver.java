@@ -10,7 +10,13 @@ public class QuadraticSolver{
         double b = input.nextDouble();
         System.out.println("Enter 'c': ");
         double c = input.nextDouble();
-        
+
+        double posAnswer = ((-b)+(Math.sqrt((b*b)-(4*a*c))))/(2*a);
+        double negAnswer = ((-b)-(Math.sqrt((b*b)-(4*a*c))))/(2*a);
+
+        System.out.println();
+        System.out.println("Positive answer = " + posAnswer);
+        System.out.println("Negative answer = " + negAnswer);
     }
 
 }
