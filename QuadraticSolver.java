@@ -22,6 +22,8 @@ public class QuadraticSolver{
         System.out.println("The solver will display 'NaN' if roots are imaginary.");
 
         input.close();
+
+        System.out.println("Forcing a merge conflict!");
     }
 
 }
