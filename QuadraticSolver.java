@@ -23,7 +23,6 @@ public class QuadraticSolver{
 
         input.close();
 
-        System.out.println("Forcing a merge conflict!");
     }
 
 }
