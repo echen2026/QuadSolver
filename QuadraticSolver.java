@@ -20,6 +20,8 @@ public class QuadraticSolver{
         System.out.println("Negative answer = " + negAnswer);
         System.out.println();
         System.out.println("The solver will display 'NaN' if roots are imaginary.");
+
+        input.close();
     }
 
 }
